@@ -11,7 +11,8 @@ app.use(cookieParser());
 app.use(cors({
   origin: [
     'https://smtraders.onrender.com',
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'https://mernvercelytqtfront.vercel.app/'
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ['Content-Type', 'Authorization'],
