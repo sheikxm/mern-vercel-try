@@ -38,13 +38,6 @@ app.use('/api/v1/orders', uploadInvoiceRoutes);
 // Environment Variables
 dotenv.config({ path: path.join(__dirname, "config/config.env") });
 
-// Production Static Files
-if (process.env.NODE_ENV === "Production") {
-  app.use(express.static(path.join(__dirname, '../frontend/build/')));
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
-  });
-}
 
 // Error Middleware
 app.use(errorMiddleware);
