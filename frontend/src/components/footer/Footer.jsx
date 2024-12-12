@@ -22,16 +22,16 @@ const Footer = () => {
         <div className="contact">
         <h2>Contact us</h2>
             <div className="contact_s1">
-                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                <a href="#"><i className="fa fa-map-marker" aria-hidden="true"></i></a>
                 <p>46,balan nagar
                  perali road,virudhunagar </p>
             </div>
             <div className="contact_s1">
-                <a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a>
+                <a href="#"><i className="fa fa-mobile" aria-hidden="true"></i></a>
                 <p>+91 6381933039</p>
             </div>
             <div className="contact_s1">
-                <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                <a href="#"><i className="fa fa-envelope-o" aria-hidden="true"></i></a>
                 <p>support@company.com</p>
             </div>
         </div>

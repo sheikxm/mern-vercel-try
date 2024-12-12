@@ -17,21 +17,21 @@ const About = () => {
 <div className="icons">
 <div className="icon">
     <div className="ion_1">
-    <i class="fa-solid fa-truck"></i>
+    <i className="fa-solid fa-truck"></i>
     <p>Fast Delivery</p>
     </div>
     <div className="ion_1">
-    <i class="fa-solid fa-tag"></i>
+    <i className="fa-solid fa-tag"></i>
     <p>Genuine Price</p>
     </div>
     </div>
     <div className="icon">
     <div className="ion_1">
-    <i class="fa-solid fa-star"></i>
+    <i className="fa-solid fa-star"></i>
     <p>Best Quality</p>
     </div>
     <div className="ion_1">
-    <i class="fa-solid fa-headset"></i>
+    <i className="fa-solid fa-headset"></i>
 <p>24/7 Support</p> 
    </div>
 </div>

@@ -67,7 +67,7 @@ const dispatch = useDispatch();
 toast('Cart Item Added!',{
     type: 'success',
 })
-}} ><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+}} ><i className="fa-solid fa-cart-shopping"></i> Add To Cart</button>
             </div>
                </div>
                <p>Status: <span className={product.stock > 0 ?'greenColor':'redColor'} id="stock_status">{ product.stock > 0 ?'In Stock':'Out of Stock'}</span></p>

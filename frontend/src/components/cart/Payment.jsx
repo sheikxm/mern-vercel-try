@@ -5,7 +5,6 @@ import './Invoice.css'
 import html2canvas from 'html2canvas'
 import Footer from "../footer/Footer";
 import { toast } from "react-toastify";
-import { orderCompleted } from "../../slices/cartSlice";
 import { createOrder } from "../../actions/orderActions";
 import { clearError as clearOrderError } from "../../slices/orderSlice";
 import { validateShipping } from "./Shipping";

@@ -3,18 +3,15 @@ import { useDispatch, useSelector } from "react-redux"
 import { toast } from "react-toastify"
 import { clearError, clearOrderDeleted } from "../../slices/orderSlice"
 import Loader from "../Loader"
-import {  getAdminProducts } from "../../actions/productActions"
 import {MDBDataTable} from 'mdbreact'
-import { Link } from "react-router-dom"
+
 import { Button} from "react-bootstrap"
 import Sidebar from "./Sidebar"
-import { clearProductDeleted } from "../../slices/productSlice"
+
 import { adminOrders as adminAction, deleteOrder,adminOrders } from "../../actions/orderActions"
-import { validateShipping } from "../cart/Shipping"
 
 export default function OrderList(){
-    const {adminOrders,products = [],loading = true ,error,isOrderDeleted} = useSelector(state=>state.orderState)
-    const {user} = useSelector(state=>state.authState)
+    const {adminOrders = [],loading = true ,error,isOrderDeleted} = useSelector(state=>state.orderState)
     const {shippingInfo} = useSelector(state=>state.cartState)
     const dispatch = useDispatch();
     // const deleteHandler = (e, id) => {
