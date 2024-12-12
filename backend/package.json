@@ -4,7 +4,7 @@
   "description": "ecommerce Website using mern stack",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js",
+    "start": "nodemon server.js",
     "build": "npm install && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend ",
     "dev": "cross-env NODE_ENV=development nodemon backend/server.js ",
     "prod": "cross-env NODE_ENV=Production nodemon backend/server.js",
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
+    "@vercel/node": "^3.2.29",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.7",
