@@ -1,6 +1,9 @@
 import axios from "axios"
 import { adminOrdersFail, adminOrdersRequest, adminOrdersSuccess, createOrderFail, createOrderRequest, createOrderSuccess, deleteOrderFail, deleteOrderRequest, deleteOrderSuccess } from "../slices/orderSlice"
 
+// Set the base URL for all Axios requests
+axios.defaults.baseURL = "https://mern-vercel-9ccofya27-sheikxms-projects.vercel.app";
+
 export const adminOrders = async(dispatch) =>{
     try{
         dispatch(adminOrdersRequest())

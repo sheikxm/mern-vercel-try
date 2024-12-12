@@ -20,6 +20,10 @@ import {
   resetPasswordSuccess,
 } from "../slices/authslice";
 
+// Set the base URL for all Axios requests
+axios.defaults.baseURL = "https://mern-vercel-9ccofya27-sheikxms-projects.vercel.app";
+
+
 export const login = (email, password) => async (dispatch) => {
   try {
     dispatch(loginRequest());

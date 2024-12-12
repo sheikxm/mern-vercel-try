@@ -2,6 +2,8 @@ import axios from 'axios'
 import { adminProductsFail, adminProductsRequest, adminProductsSuccess, productsFail, productsRequest, productsSucess } from '../slices/productsSlice';
 import { deleteProductFail, deleteProductRequest, deleteProductSuccess, newProductFail, newProductRequest, newProductSuccess } from '../slices/productSlice';
 
+// Set the base URL for all Axios requests
+axios.defaults.baseURL = "https://mern-vercel-9ccofya27-sheikxms-projects.vercel.app";
 
 
 export const getProducts = (keyword,category,currentPage,id,name,description,image) => async (dispatch) => {

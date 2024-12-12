@@ -59,7 +59,7 @@ const dispatch = useDispatch();
                <div className="adding">
                <span className="btn  minus" onClick={decreaseQty} >-</span>
 <input type="number" className="count" value={quantity} readOnly/>
-<span className="btn plus" onClick={increaseQty}>+</span>
+<span className="btn plus" onClick={increaseQty}>+</span>  
             </div>
             <div className="add">
             

@@ -53,7 +53,7 @@ const Payment = () => {
   
         // Upload PDF
         const response = await axios.post(
-          "https://smtraders.onrender.com/api/v1/admin/upload-invoice",
+          "https://mern-vercel-9ccofya27-sheikxms-projects.vercel.app/api/v1/admin/upload-invoice",
           formData,{
             headers: {
               "Content-Type": "application/json", // Adjust if sending files
