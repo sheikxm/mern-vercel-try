@@ -70,7 +70,7 @@ exports.forgotPassword = catchAsyncError(async(req,res,next) =>{
     try{
  sendEmail({
     email:user.email,
-    subject:"SNCrackers password recovery",
+    subject:"SMCrackers password recovery",
     message
  })
 res.status(200).json({
