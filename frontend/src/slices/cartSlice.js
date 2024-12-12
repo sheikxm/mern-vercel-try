@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
+//trre
 
 const cartSlice = createSlice({
     name: 'cart',
