@@ -12,7 +12,7 @@ app.use(cors({
   origin: [
     'https://smtraders.onrender.com',
     'http://localhost:3000',
-    'https://mernvercelytqtfront.vercel.app/'
+    'https://smpyropark.netlify.app'
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ['Content-Type', 'Authorization'],
